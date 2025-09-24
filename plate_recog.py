@@ -111,7 +111,7 @@ def main():
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--image_path", type=str,
-                        help="path to image file", default="img/plate1.jpg")
+                        help="path to image file", default="img_plate/plate1.jpg")
     parser.add_argument("--template_path", type=str,
                         help="path to template folder", default="template")
     parser.add_argument("--show_image", type=bool,
